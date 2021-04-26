@@ -11,49 +11,37 @@ namespace PierwiastkiKwadratowe_Testy
             {
                 Console.WriteLine("Funkcja:");
                 double a, b, c, delta, pierw1, pierw2;
-                Console.WriteLine("Podaj pierwiastek A");
+                Console.WriteLine("Podaj A");
                 a = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Podaj pierwiastek B");
+                Console.WriteLine("Podaj B");
                 b = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Podaj pierwiastek C");
+                Console.WriteLine("Podaj C");
                 c = Convert.ToDouble(Console.ReadLine());
 
-                if (a == 0 && a <= 0)
+
+
+                delta = b * b - 4 * a * c;
+
+                if (delta <= 0)
                 {
-                    Console.WriteLine("A musi być większe od 0");
-                }
-                else if (b == 0 && b <= 0)
-                {
-                    Console.WriteLine("B musi być większe od 0");
-                }
-                else if (c == 0 && c <= 0)
-                {
-                    Console.WriteLine("C musi być większe od 0");
+                    Console.Write("Brak pierwiastków");
                 }
                 else
                 {
-                    delta = b * b - 4 * a * c;
-
-                    if (delta <= 0)
+                    if (delta == 0)
                     {
-                        Console.Write("Brak pierwiastków");
+                        pierw1 = -b / (2 * a);
+                        Console.WriteLine("Równanie kwadratowe ma jeden pierwiastek podwójny x1 = " + pierw1);
                     }
                     else
                     {
-                        if (delta == 0)
-                        {
-                            pierw1 = -b / (2 * a);
-                            Console.WriteLine("Równanie kwadratowe ma jeden pierwiastek podwójny x1 = " + pierw1);
-                        }
-                        else
-                        {
-                            pierw1 = (-b - Math.Sqrt(delta)) / (2 * a);
-                            pierw2 = (-b + Math.Sqrt(delta)) / (2 * a);
-                            Console.WriteLine("Równanie kwadratowe ma dwa pierwiastki: x1 = " + pierw1 + " x2 =  " + pierw2);
-                        }
+                        pierw1 = (-b - Math.Sqrt(delta)) / (2 * a);
+                        pierw2 = (-b + Math.Sqrt(delta)) / (2 * a);
+                        Console.WriteLine("Równanie kwadratowe ma dwa pierwiastki: x1 = " + pierw1 + " x2 =  " + pierw2);
                     }
-
                 }
+
+
                 Console.ReadKey();
                 Console.ReadKey();
             }

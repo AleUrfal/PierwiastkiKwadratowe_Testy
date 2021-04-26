@@ -1,0 +1,13 @@
+C:\Users\Igła\source\repos\PierwiastkiKwadratowe_Testy\bin\Debug\netcoreapp3.1\PierwiastkiKwadratowe_Testy.exe
+C:\Users\Igła\source\repos\PierwiastkiKwadratowe_Testy\bin\Debug\netcoreapp3.1\PierwiastkiKwadratowe_Testy.deps.json
+C:\Users\Igła\source\repos\PierwiastkiKwadratowe_Testy\bin\Debug\netcoreapp3.1\PierwiastkiKwadratowe_Testy.runtimeconfig.json
+C:\Users\Igła\source\repos\PierwiastkiKwadratowe_Testy\bin\Debug\netcoreapp3.1\PierwiastkiKwadratowe_Testy.runtimeconfig.dev.json
+C:\Users\Igła\source\repos\PierwiastkiKwadratowe_Testy\bin\Debug\netcoreapp3.1\PierwiastkiKwadratowe_Testy.dll
+C:\Users\Igła\source\repos\PierwiastkiKwadratowe_Testy\bin\Debug\netcoreapp3.1\PierwiastkiKwadratowe_Testy.pdb
+C:\Users\Igła\source\repos\PierwiastkiKwadratowe_Testy\obj\Debug\netcoreapp3.1\PierwiastkiKwadratowe_Testy.csprojAssemblyReference.cache
+C:\Users\Igła\source\repos\PierwiastkiKwadratowe_Testy\obj\Debug\netcoreapp3.1\PierwiastkiKwadratowe_Testy.AssemblyInfoInputs.cache
+C:\Users\Igła\source\repos\PierwiastkiKwadratowe_Testy\obj\Debug\netcoreapp3.1\PierwiastkiKwadratowe_Testy.AssemblyInfo.cs
+C:\Users\Igła\source\repos\PierwiastkiKwadratowe_Testy\obj\Debug\netcoreapp3.1\PierwiastkiKwadratowe_Testy.csproj.CoreCompileInputs.cache
+C:\Users\Igła\source\repos\PierwiastkiKwadratowe_Testy\obj\Debug\netcoreapp3.1\PierwiastkiKwadratowe_Testy.dll
+C:\Users\Igła\source\repos\PierwiastkiKwadratowe_Testy\obj\Debug\netcoreapp3.1\PierwiastkiKwadratowe_Testy.pdb
+C:\Users\Igła\source\repos\PierwiastkiKwadratowe_Testy\obj\Debug\netcoreapp3.1\PierwiastkiKwadratowe_Testy.genruntimeconfig.cache
