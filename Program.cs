@@ -10,7 +10,7 @@ namespace PierwiastkiKwadratowe_Testy
             for (int t = 0; t <= 100; t++)
             {
                 Console.WriteLine("Funkcja:");
-                double a, b, c, delta, pierw1, pierw2;
+                double a, b, c;
                 Console.WriteLine("Podaj A");
                 a = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("Podaj B");
@@ -18,31 +18,22 @@ namespace PierwiastkiKwadratowe_Testy
                 Console.WriteLine("Podaj C");
                 c = Convert.ToDouble(Console.ReadLine());
 
+                Funkcja funkcja = new Funkcja(a, b, c);
+                double[] pierwiastki = funkcja.ObliczPierwiastki();
 
-
-                delta = b * b - 4 * a * c;
-
-                if (delta <= 0)
+                if (pierwiastki != null)
                 {
-                    Console.Write("Brak pierwiastków");
+                    Console.WriteLine("pierwiastki : ");
+                    for (int i = 0; i < pierwiastki.Length; i++)
+                    {
+                        Console.WriteLine(pierwiastki[i]);
+                    }
                 }
                 else
                 {
-                    if (delta == 0)
-                    {
-                        pierw1 = -b / (2 * a);
-                        Console.WriteLine("Równanie kwadratowe ma jeden pierwiastek podwójny x1 = " + pierw1);
-                    }
-                    else
-                    {
-                        pierw1 = (-b - Math.Sqrt(delta)) / (2 * a);
-                        pierw2 = (-b + Math.Sqrt(delta)) / (2 * a);
-                        Console.WriteLine("Równanie kwadratowe ma dwa pierwiastki: x1 = " + pierw1 + " x2 =  " + pierw2);
-                    }
+                    Console.WriteLine("Brak pierwiastków");
                 }
-
-
-                Console.ReadKey();
+             
                 Console.ReadKey();
             }
         }
